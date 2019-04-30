@@ -66,5 +66,8 @@ p4
 
 ## Conclusions
 
-A positive relationship for math by reading scores is evident, regardless of student SES. Figure 2 indicates that while a positive relationship exists in all SES categories, there are different ability levels between the groups, though the difference between them is small. Ability levels are evident between the SES groups, with low SES having the lowest scores
+A positive relationship for math by reading scores is evident, regardless of student 
+SES. Figure 2 indicates that while a positive relationship exists in all SES 
+categories, there are different ability levels between the groups, though the difference between them is small. Ability levels are evident between the SES groups, with low
+SES having the lowest scores.
 
