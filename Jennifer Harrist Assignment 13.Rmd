@@ -42,3 +42,26 @@ p2 <- p1 + geom_point() +
        caption = "Figure 1: The influence of reading on math scores")
 p2
 ```
+
+In considering H1, a positive relationship exists between reading and math scores, as
+seen in Figure 1. Therefore, hypothesis 1 is supported. As reading scores increase,
+math scores increase. 
+
+Where reading ability can have a positive influence on math scores, it is assumed 
+that differences in SES will influence overall relationship between reading and math 
+scores.
+
+```{r}
+
+p3 <- ggplot(hsb2, aes(x = read, y = math, color = SES))
+p4 <- p3 + geom_point() +
+  stat_smooth(method= "lm", level = 0.70, fullrange = TRUE) + 
+  labs(x = "Reading Scores",
+       y = "Math Scores",
+       title = "Influence of Math Scores by Reading Scores Grouped by SES ",
+       caption = "Figure 2: The influence of reading on math scores separated 
+       by SES")
+p4
+```
+
+
