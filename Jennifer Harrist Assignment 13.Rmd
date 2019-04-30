@@ -1,0 +1,20 @@
+---
+title: "HSB2 Data Analysis"
+author: "Jennifer Harrist"
+output: html_notebook
+---
+## Introduction
+
+**The purpose of our research is to investigate the relationship between various variables and student achievement scores in reading, math, and science More specifically, we examine (a) whether a student’s scores in reading and math are related and to what extent this relationship is influenced by socioeconomic status, (b) whether gender impacts a student’s reading and math scores, (c) whether a relationship between race and reading scores exist and to what extent this relationship is influenced by socioeconomic status. Our sample consists of 200 students from different socio-economic backgrounds (low, middle, high) and different ethnicities (White, Hispanic, African-American, Asian).**
+
+We will begin by loading in our data and setting *SES* as a factor.
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
